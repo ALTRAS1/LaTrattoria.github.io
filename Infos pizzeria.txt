@@ -1,0 +1,27 @@
+NOM: La Trattoria
+
+SLOGAN: Pizzeria artisanale indépendante — FAIRE SIMPLE ET PAS CHER
+
+TAILLE_PIZZA: 31 cm
+
+CARACTÉRISTIQUES: Aliments frais — Cuisson sur pierre — Choix : mie moelleuse ou croûte croustillante
+
+HORAIRES: Mardi - Dimanche 18:00 - 21:15
+
+RUBRIQUES: Accueil, À propos, Carte, Contact
+
+1. Informations générales
+
+Nom du site : La Trattoria
+Adresse du site : www.latrattoria-toulouse.fr
+
+Éditeur du site :
+
+La Trattoria — Pizzeria artisanale à emporter
+24 rue des Carmes, 31000 Toulouse
+Téléphone : 06 00 00 00 00
+Email : contact@latrattoria.fr
+Statut juridique : Entreprise individuelle
+Numéro SIRET : 999 888 777 00011
+Responsable de la publication : M. Marco Rossi
+
