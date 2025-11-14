@@ -24,11 +24,63 @@ body{
     gap: 20px;
 }
 
-.c2header{
+
+.c2header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+
+.c2headerleft {
     display: flex;
     flex-direction: row;
-
+    gap: 20px;
+    align-items: center;
 }
+
+
+.header-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.header-title {
+    font-size: 180%;
+    color: rgb(255, 217, 0);
+}
+
+
+div.commander {
+    background: rgba(255, 0, 0, 0.8);
+    font-size: 95%;
+    padding: 20px 45px;
+    
+}
+
+.commander:hover {
+    background: red;
+}
+
+.c2headerright {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+
+.c2headerright .i_button {
+    padding: 12px 20px;
+    flex-direction: row;
+}
+
 .boite{
     display: flex;
     border: 5px solid black;
