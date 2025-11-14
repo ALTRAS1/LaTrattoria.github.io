@@ -44,9 +44,9 @@ body{
 
 
 .header-logo {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    
     object-fit: cover;
 }
 
@@ -98,8 +98,8 @@ div.commander {
     background-size: cover;
     background-repeat: no-repeat;
 
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }
 
 .i_Title {
