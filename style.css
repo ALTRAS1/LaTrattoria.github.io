@@ -83,7 +83,7 @@ div.commander {
 
 .boite{
     display: flex;
-    border: 5px solid black;
+
     flex-direction: column;
     border-radius: 20px;
     
@@ -132,8 +132,17 @@ div.commander {
     align-items: center;
     flex-grow: 0.1;
     border-radius: 20px;        
-    background: rgba(0, 0, 0, 0.4); 
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);  
+    
+    
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    padding: 25px 30px;
+    color: white;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+
+
     
 }
 
@@ -159,6 +168,42 @@ div.commander {
 }
 
 .i_button:hover {
-  background: rgba(255, 0, 0, 0.76); /* effet clair au survol */
-  transform: scale(1.05);                /* léger zoom */
+  background: rgba(255, 0, 0, 0.76); 
+  transform: scale(1.05);                
+}
+
+.grid-pizzas {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pizza-card {
+    background: rgba(0,0,0,0.4);
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.pizza-img {
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.pizza-name {
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(255, 217, 0);
+}
+
+.pizza-desc {
+    margin-top: 8px;
 }
