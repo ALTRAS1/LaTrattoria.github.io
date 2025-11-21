@@ -236,3 +236,7 @@ a.commander {
     font-size: 115%;
 }
 
+.Carte {
+    display: inline-block;
+    border: 3px solid;
+}
