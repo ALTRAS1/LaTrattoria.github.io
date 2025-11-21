@@ -235,3 +235,8 @@ a.commander {
     font-weight: bold;
     font-size: 115%;
 }
+
+.Carte {
+  display: flex;
+  justify-content: center;
+}
