@@ -239,4 +239,5 @@ a.commander {
 .Carte {
   display: flex;
   justify-content: center;
+  border-radius: 10px;
 }
