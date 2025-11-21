@@ -236,7 +236,7 @@ a.commander {
     font-size: 115%;
 }
 
-.carte {
+.carte iframe {
     display: inline-block;
-    border: 3px solid red;
+    border: 3px solid Black;
 }
