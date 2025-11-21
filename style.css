@@ -235,8 +235,3 @@ a.commander {
     font-weight: bold;
     font-size: 115%;
 }
-
-.carte {
-    display: inline-block;
-    border: 3px solid blue;
-}
