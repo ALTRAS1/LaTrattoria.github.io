@@ -238,6 +238,5 @@ a.commander {
 
 .carte {
     display: inline-block;
-    border: 3px solid;
-    color: black;
+    border: 3px solid black;
 }
