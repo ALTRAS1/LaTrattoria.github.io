@@ -47,15 +47,9 @@ a {
 
 
 .header-logo {
-<<<<<<< HEAD
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-=======
     width: 120px;
     height: 120px;
     
->>>>>>> bdcb8e91f089cf40eeef97152ebff97f324a7666
     object-fit: cover;
 }
 
@@ -66,15 +60,9 @@ a {
 }
 
 
-<<<<<<< HEAD
-div.commander {
-    background: rgba(255, 0, 0, 0.8);
-    font-size: 95%;
-=======
 a.commander {
     background: rgba(255, 0, 0, 0.8);
     font-size: 115%;
->>>>>>> bdcb8e91f089cf40eeef97152ebff97f324a7666
     padding: 20px 45px;
     
 }
@@ -106,15 +94,44 @@ a.commander {
     padding: 40px 20px;
     gap: 20px;
 }
+
+.Bfooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    gap: 40px;                
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.footer-block {
+    width: 40%;     
+    color: white;
+    text-align: center; 
+}
+
 .i_image{
     display: flex;
-    background-image: url('Logo 2 Pizzeria.png');
+    background-image: url('images/Logo 2 Pizzeria.png');
     
     background-size: cover;
     background-repeat: no-repeat;
 
     width: 800px;
     height: 300px;
+}
+
+.i_texte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0.3;
+    font-weight: bold;   
+    height: fit-content;   
+    font-size: 120%;  
+    color: rgb(255, 255, 255); 
+    
 }
 
 .i_Title {
@@ -128,7 +145,6 @@ a.commander {
     color: rgb(255, 255, 255); 
     
 }
-
 
 .i_BigTitle {
     display: flex;
@@ -155,13 +171,8 @@ a.commander {
     color: white;
 
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-
-
-
-    
+        
 }
-
-
 
 .i_button {
   display: flex;
@@ -185,11 +196,6 @@ a.commander {
 }
 
 .i_button:hover {
-<<<<<<< HEAD
-  background: rgba(255, 0, 0, 0.76); /* effet clair au survol */
-  transform: scale(1.05);                /* lÃ©ger zoom */
-}
-=======
   background: rgba(255, 0, 0, 0.76); 
   transform: scale(1.05);                
 }
@@ -252,4 +258,52 @@ a.commander {
     font-weight: bold;
     font-size: 115%;
 }
->>>>>>> bdcb8e91f089cf40eeef97152ebff97f324a7666
+
+.avis-container {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 16px; 
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.avis-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0,0,0,0.4);
+  border-radius: 20px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  width: 25%; 
+  max-width: 250px; 
+
+
+}
+
+.avis-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; 
+  margin-bottom: 4px;
+}
+
+.etoiles {
+  font-size: 1.2em;
+  color: gold; 
+}
+
+.avis-commentaire {
+  text-align: center;
+  font-size: 0.9em;
+  color: white;
+}
